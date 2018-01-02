@@ -1,0 +1,6 @@
+model_predict:
+  build: .
+  ports:
+   - "5001:5000"
+  volumes:
+   - .:/app
