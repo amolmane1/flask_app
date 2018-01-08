@@ -18,8 +18,7 @@ class Transformer:
         self.calculated_fields_to_include = None
         self.prediction_date = None
         self.x = None
-        # self.date_field = self.predictor['event_Date_Field']
-        self.date_field = 'date'
+        self.date_field = self.predictor['event_Date_Field']
 
     def run(self):
         if self.get_prediction_date():
